@@ -42,6 +42,7 @@ Clone the Suricata Docker Container repository to your local machine using the f
 
 ```bash
 git clone https://github.com/your-username/suricata-docker-container.git
+```
 Step 2: Install Docker
 If you haven't already, make sure Docker is installed on your system. You can download and install Docker from the official website: Docker.
 
@@ -56,7 +57,7 @@ Now, you can run Suricata in a Docker container using the following command:
 
 ```bash
 docker run -d --name suricata-container --cap-add=NET_ADMIN -p 80:80 suricata-container:latest
-
+```
 -d: Runs the container in detached mode (in the background).
 ```bash
 --name suricata-container: Assigns a name to the container for easy reference.
