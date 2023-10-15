@@ -1,0 +1,1 @@
+alert ip any any -> any any (msg:"Ethereum DevP2P Traffic Detected"; content:"|224 00 0 0|"; depth:4; sid:1000001;)
