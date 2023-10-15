@@ -1,6 +1,6 @@
 ### ETHEREUMGUARD v1
 
-# Suricata Docker Container: Network Security Monitoring for Etherium
+# Suricata Docker Container: Network Security Monitoring for Ethereum
 
 ![suricata-logo.png](https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-R.png)
 
