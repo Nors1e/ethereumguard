@@ -79,3 +79,23 @@ This will display logs containing information about Suricata's activity and dete
 
 Troubleshooting
 If you encounter any issues during setup or usage, refer to the troubleshooting section of the documentation for common problems and solutions.
+
+
+### Example Output:
+
+Log 1: Valid - Query Account Balance
+```bash
+09/27/2023-17:47:15.735210  [**] [1:1000001:1] Ethereum RPC Activity Detected [**] [Classification: Standard Query] [Priority: 3] {TCP} 192.168.1.101:51937 -> 203.0.113.25:8545
+```
+Log 2: Valid - Getting Transaction Count
+```bash
+09/27/2023-17:49:56.021456  [**] [1:1000001:1] Ethereum RPC Activity Detected [**] [Classification: Standard Query] [Priority: 3] {TCP} 192.168.1.103:51939 -> 203.0.113.25:8545
+```
+Log 3: Suspicious - Rapid Succession of Transactions
+```bash
+09/27/2023-17:50:01.235978  [**] [1:1000001:1] Ethereum RPC Activity Detected [**] [Classification: Potential Attack - Rapid Transactions] [Priority: 1] {TCP} 192.168.1.104:51940 -> 203.0.113.25:8545
+```
+Log 4: Suspicious - Unlocking Account
+```bash
+09/27/2023-17:51:30.010458  [**] [1:1000001:1] Ethereum RPC Activity Detected [**] [Classification: Potential Attack - Account Unlocking] [Priority: 1] {TCP} 192.168.1.105:51941 -> 203.0.113.25:8545
+```
