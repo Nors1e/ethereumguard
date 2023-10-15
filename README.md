@@ -1,6 +1,6 @@
 ### ETHEREUMGUARD v1
 
-# Suricata Docker Container: Network Security Monitoring
+# Suricata Docker Container: Network Security Monitoring for Etherium
 
 ![Suricata Logo](suricata-logo.png)
 
