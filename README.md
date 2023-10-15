@@ -78,9 +78,3 @@ This will display logs containing information about Suricata's activity and dete
 
 Troubleshooting
 If you encounter any issues during setup or usage, refer to the troubleshooting section of the documentation for common problems and solutions.
-
-Contributing
-If you'd like to contribute to this project or provide feedback, follow the contribution guidelines outlined in the project's documentation.
-
-License
-This project is licensed under the [License Name] License - see the LICENSE file for details.
