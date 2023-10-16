@@ -2,9 +2,6 @@
 
 # Suricata Docker Container: Network Security Monitoring for Ethereum
 
-![suricata-logo.png](https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-R.png)
-<img src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-R.png" width="400" height="400">
-
 <p align="center">
   <img src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-R.png" alt="Your image" width="475" height="400"/>
 </p>
