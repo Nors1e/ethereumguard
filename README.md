@@ -3,6 +3,7 @@
 # Suricata Docker Container: Network Security Monitoring for Ethereum
 
 ![suricata-logo.png](https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-R.png)
+<img src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-R.png" width="200" height="200">
 
 Welcome to the Suricata Docker Container documentation. This guide provides detailed, step-by-step instructions on how to set up and run Suricata in a Docker container for network security monitoring.
 
